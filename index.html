@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiuraFLix 1.0</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      MIURAFLIX
+    </h1>
+    <img src="https://i.ibb.co/nbtQkqr/Miura-Flix" class="page-logo" alt=""><br>
+  </div>
+
+  <input class="inserirImagem" id="entradaImagem" placeholder="Insira a Url da Imagem">
+  <input class="inserirNome" id="entradaNome" placeholder="Insira o Nome do Filme">
+  <button class="buttonInserir" type="submit" onclick="Enviar()">Adicionar</button>
+  <div class="select"></div>
+
+  <label for="films">Escolha um Filme para Excluir:</label>
+  <select id="select" name="films"></select>
+  <button class="buttonRemover" type="submit" onclick="Remover()">Remover</button>
+
+  <div class="filmes"></div>
+
+  <a href="https://github.com/ryanmiura" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/1322/1322053.png" alt="" class="alura-logo">
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
